@@ -1,11 +1,10 @@
 {
   "name": "rough-notation-houdini",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "source": "./src/worklet.js",
   "module": "./dist/worklet.js",
   "main": "./dist/worklet.cjs",
-  "exports": "./dist/worklet.modern.js",
   "unpkg": "./dist/worklet.umd.js",
   "scripts": {
     "dev": "web-dev-server --watch --root-dir ./src",
