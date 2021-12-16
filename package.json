@@ -1,0 +1,26 @@
+{
+  "name": "rough-notation-houdini",
+  "version": "0.0.1",
+  "type": "module",
+  "source": "./src/worklet.js",
+  "module": "./dist/worklet.js",
+  "main": "./dist/worklet.cjs",
+  "exports": "./dist/worklet.modern.js",
+  "unpkg": "./dist/worklet.umd.js",
+  "scripts": {
+    "dev": "web-dev-server --watch --root-dir ./src",
+    "build": "microbundle"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28",
+    "microbundle": "^0.14.2"
+  },
+  "files": [
+    "src/worklet.js",
+    "dist"
+  ],
+  "author": "Alex Zhou <alex.zzh.s7@gmail.com>",
+  "properties": {
+    "regex": "^_"
+  }
+}

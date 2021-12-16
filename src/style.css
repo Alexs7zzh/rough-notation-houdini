@@ -1,0 +1,63 @@
+.el {
+  --roughness: 3;
+  --rough-color: red;
+  background: paint(rough-notation);
+}
+
+/* Basic styling */
+body {
+  display: grid;
+  place-items: center;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+:target {
+  scroll-margin-top: 2em;
+}
