@@ -1,6 +1,6 @@
 {
   "name": "rough-notation-houdini",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "source": "./src/worklet.js",
   "module": "./dist/worklet.js",
@@ -20,7 +20,7 @@
     "dist"
   ],
   "author": "Alex Zhou <alex.zzh.s7@gmail.com>",
-  "properties": {
-    "regex": "^_"
-  }
+  "mangle": {
+		"regex": "^_"
+	}
 }
