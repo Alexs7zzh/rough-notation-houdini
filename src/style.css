@@ -1,6 +1,14 @@
-.el {
+.el1 {
   --roughness: 3;
   --rough-color: red;
+  background: paint(rough-notation);
+  
+}
+
+.el2 {
+  --roughness: 3;
+  --rough-color: red;
+  --type: box;
   background: paint(rough-notation);
 }
 
